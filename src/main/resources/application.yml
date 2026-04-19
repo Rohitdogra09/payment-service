@@ -8,7 +8,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/hotel_payment_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: Rohit@123
+    password: your password
+    
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
