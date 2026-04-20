@@ -6,9 +6,12 @@ spring:
     name: payment-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/hotel_payment_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    # url: jdbc:mysql://localhost:3306/hotel_payment_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    # username: root
+    # password: your password
+    url: jdbc:mysql://shinkansen.proxy.rlwy.net:29442/railway?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: your password
+    password: akTsDxnrZgeqGDgwbWbsECyLeWihkCuk
     
     driver-class-name: com.mysql.cj.jdbc.Driver
 
